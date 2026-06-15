@@ -1,0 +1,9 @@
+# Core scoring has zero hard dependencies (pure stdlib).
+# The extras below enable the data layer, API, and tests.
+psycopg2-binary>=2.9
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+pytest>=8.0
+numpy>=1.26
+pandas>=2.0
